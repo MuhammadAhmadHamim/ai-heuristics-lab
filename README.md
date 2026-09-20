@@ -34,7 +34,7 @@ This is that record, in **Python**, starting **Fall 2026**. No lecture notes, no
 ai-concepts-vault/
 │
 ├── 🤖 agents/
-│       └── intelligent agent implementations, environment simulations
+│       └── simple_reflex_agent.py
 │
 ├── 🧭 search/
 │       ├── uninformed/            BFS, DFS, UCS, iterative deepening
@@ -77,7 +77,7 @@ Before search, before logic, before learning — an agent has to actually percei
 
 | Module | What's Queued | Status |
 |---|---|:---:|
-| **Agent Types** | Simple reflex, model-based, goal-based, utility-based | ⏳ Queued |
+| **Agent Types** | Simple reflex, model-based, goal-based, utility-based | 1 Done ✅, 3 ⏳ Queued |
 | **Environment Design** | PEAS framing, environment properties, small simulated worlds | ⏳ Queued |
 
 > *No agent here gets to be theoretical — if it can't be dropped into an environment and run, it doesn't count as built yet.*
