@@ -39,7 +39,10 @@ ai-concepts-vault/
 |       └── goal_based_agent.py
 │
 ├── 🧭 search/
-│       ├── uninformed/            BFS, DFS, UCS, iterative deepening
+│       ├── uninformed/
+|       |   └── dfs/
+|       |       └── goal_search.py
+|       |
 │       ├── informed/              greedy best-first, A*, hand-built heuristics
 │       ├── local_optimization/    hill-climbing, simulated annealing, beam search
 │       ├── evolutionary/          genetic algorithms — encoding, selection, mutation
