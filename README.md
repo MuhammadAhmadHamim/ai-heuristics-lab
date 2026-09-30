@@ -41,6 +41,7 @@ ai-concepts-vault/
 ├── 🧭 search/
 │       ├── uninformed/
 |       |   └── dfs/
+|       |       ├── count_nodes.py
 |       |       └── goal_search.py
 |       |
 │       ├── informed/              greedy best-first, A*, hand-built heuristics
