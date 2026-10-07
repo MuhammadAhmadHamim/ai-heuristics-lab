@@ -40,10 +40,13 @@ ai-concepts-vault/
 │
 ├── 🧭 search/
 │       ├── uninformed/
-|       |   └── dfs/
-|       |       ├── count_nodes.py
-|       |       ├── goal_search.py
-|       |       └── print_path.py
+|       |   ├── dfs/
+|       |   |   ├── count_nodes.py
+|       |   |   ├── goal_search.py
+|       |   |   └── print_path.py
+|       |   |
+|       |   └── bfs/
+|       |       └── goal_search.py
 |       |
 │       ├── informed/              greedy best-first, A*, hand-built heuristics
 │       ├── local_optimization/    hill-climbing, simulated annealing, beam search
