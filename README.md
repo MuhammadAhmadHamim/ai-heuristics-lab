@@ -46,6 +46,7 @@ ai-concepts-vault/
 |       |   |   └── print_path.py
 |       |   |
 |       |   └── bfs/
+|       |       ├── count_nodes.py
 |       |       └── goal_search.py
 |       |
 │       ├── informed/              greedy best-first, A*, hand-built heuristics
