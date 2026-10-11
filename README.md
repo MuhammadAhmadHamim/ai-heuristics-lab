@@ -47,7 +47,8 @@ ai-concepts-vault/
 |       |   |
 |       |   └── bfs/
 |       |       ├── count_nodes.py
-|       |       └── goal_search.py
+|       |       ├── goal_search.py
+|       |       └── print_traversal_steps.py
 |       |
 │       ├── informed/              greedy best-first, A*, hand-built heuristics
 │       ├── local_optimization/    hill-climbing, simulated annealing, beam search
