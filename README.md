@@ -45,10 +45,13 @@ ai-concepts-vault/
 |       |   |   ├── goal_search.py
 |       |   |   └── print_path.py
 |       |   |
-|       |   └── bfs/
-|       |       ├── count_nodes.py
-|       |       ├── goal_search.py
-|       |       └── print_traversal_steps.py
+|       |   ├── bfs/
+|       |   |   ├── count_nodes.py
+|       |   |   ├── goal_search.py
+|       |   |   └── print_traversal_steps.py
+|       |   |
+|       |   └── a_star/
+|       |       └── maze_planning.py
 |       |
 │       ├── informed/              greedy best-first, hand-built heuristics
 │       ├── local_optimization/    hill-climbing, simulated annealing, beam search
@@ -104,7 +107,7 @@ The backbone of the whole course. Everything from "find any path" to "find the *
 
 | Branch | What's Queued | Status |
 |---|---|:---:|
-| **Uninformed** | BFS, DFS, uniform-cost search, iterative deepening | 🔨 In progress |
+| **Uninformed** | BFS, DFS, uniform-cost search, A*, iterative deepening | 🔨 In progress |
 | **Informed** | Greedy best-first, custom heuristic design | ⏳ Queued |
 | **Local Optimization** | Hill-climbing, simulated annealing, beam search | ⏳ Queued |
 | **Evolutionary** | Genetic algorithms — encodings, selection, crossover, mutation | ⏳ Queued |
