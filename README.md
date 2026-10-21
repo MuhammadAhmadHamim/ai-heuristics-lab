@@ -51,7 +51,8 @@ ai-concepts-vault/
 |       |   |   └── print_traversal_steps.py
 |       |   |
 |       |   └── a_star/
-|       |       └── maze_planning.py
+|       |       ├── maze_planning.py
+|       |       └── weighed_graph.py
 |       |
 │       ├── informed/              greedy best-first, hand-built heuristics
 │       ├── local_optimization/    hill-climbing, simulated annealing, beam search
