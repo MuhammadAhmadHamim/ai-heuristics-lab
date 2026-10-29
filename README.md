@@ -48,7 +48,8 @@ ai-concepts-vault/
 |       |   └── bfs/
 |       |       ├── count_nodes.py
 |       |       ├── goal_search.py
-|       |       └── print_traversal_steps.py    
+|       |       ├── print_traversal_steps.py
+|       |       └── return_path.py
 |       |
 │       ├── informed/
 |       |   └── a_star/
