@@ -45,11 +45,14 @@ ai-concepts-vault/
 |       |   |   ├── goal_search.py
 |       |   |   └── print_path.py
 |       |   |
-|       |   └── bfs/
-|       |       ├── count_nodes.py
-|       |       ├── goal_search.py
-|       |       ├── print_traversal_steps.py
-|       |       └── return_path.py
+|       |   ├── bfs/
+|       |   |   ├── count_nodes.py
+|       |   |   ├── goal_search.py
+|       |   |   ├── print_traversal_steps.py
+|       |   |   └── return_path.py
+|       |   |
+|       |   └── ucs/
+|       |       └── goal_based_ucs.py
 |       |
 │       ├── informed/
 |       |   └── a_star/
@@ -109,8 +112,8 @@ The backbone of the whole course. Everything from "find any path" to "find the *
 
 | Branch | What's Queued | Status |
 |---|---|:---:|
-| **Uninformed** | BFS, DFS, uniform-cost search, iterative deepening | 🔨 In progress |
-| **Informed** | Greedy best-first, A*, custom heuristic design | ⏳ Queued |
+| **Uninformed** | BFS, DFS, uniform-cost search | Done ✅ |
+| **Informed** | Greedy best-first, A*, custom heuristic design | 🔨 In progress |
 | **Local Optimization** | Hill-climbing, simulated annealing, beam search | ⏳ Queued |
 | **Evolutionary** | Genetic algorithms — encodings, selection, crossover, mutation | ⏳ Queued |
 | **Adversarial** | Minimax, alpha-beta pruning, Monte Carlo tree search | ⏳ Queued |
