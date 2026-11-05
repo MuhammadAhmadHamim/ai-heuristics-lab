@@ -228,6 +228,7 @@ for concept, meta in vault.items():
 ```bash
 # Clone the vault
 git clone https://github.com/MuhammadAhmadHamim/ai-heuristics-lab.git
+cd ai-heuristics-lab
 
 # Navigate to any concept
 cd labs
